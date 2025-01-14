@@ -14,3 +14,7 @@ p {
     color: red;
 
 }
+
+li[value="7"] {
+    color: darkblue;
+}
