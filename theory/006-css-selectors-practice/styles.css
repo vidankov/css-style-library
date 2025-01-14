@@ -9,3 +9,8 @@ p {
 .item {
     font-size: 30px;
 }
+
+#demo-selector {
+    color: red;
+
+}
