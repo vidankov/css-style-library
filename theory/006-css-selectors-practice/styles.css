@@ -18,3 +18,7 @@ p {
 li[value="7"] {
     color: darkblue;
 }
+
+* {
+    text-align: center;
+}
