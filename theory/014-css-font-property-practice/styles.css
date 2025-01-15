@@ -26,7 +26,12 @@ p {
     color: red;
 }
 
-.task-complex {}
+.task-complex {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: right;
+    color: green;
+}
 
 .task-times-new-roman {}
 
