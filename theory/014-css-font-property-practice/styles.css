@@ -22,7 +22,9 @@ p {
     font-family: monospace;
 }
 
-.task-color {}
+.task-color {
+    color: red;
+}
 
 .task-complex {}
 
