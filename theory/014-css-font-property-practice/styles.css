@@ -10,7 +10,9 @@ p {
     font-weight: 700;
 }
 
-.task-size {}
+.task-size {
+    font-size: 20px;
+}
 
 .task-center {}
 
