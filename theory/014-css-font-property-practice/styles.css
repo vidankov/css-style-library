@@ -18,7 +18,9 @@ p {
     text-align: center;
 }
 
-.task-monospace {}
+.task-monospace {
+    font-family: monospace;
+}
 
 .task-color {}
 
