@@ -14,7 +14,9 @@ p {
     font-size: 20px;
 }
 
-.task-center {}
+.task-center {
+    text-align: center;
+}
 
 .task-monospace {}
 
