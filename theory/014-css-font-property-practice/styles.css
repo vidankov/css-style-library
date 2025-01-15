@@ -33,7 +33,9 @@ p {
     color: green;
 }
 
-.task-times-new-roman {}
+.task-times-new-roman {
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .task-large-blue {}
 
