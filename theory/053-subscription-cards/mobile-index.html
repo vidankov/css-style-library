@@ -26,27 +26,31 @@
         .card {
             /* Цвет фона карточки */
             background-color: #abedde;
-            display: inline-flex;
+            display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-content: space-evenly;
-            flex-basis: 225px;
+            flex: 0 1 0;
             padding: 10px 5px;
+            border-radius: 10px;
         }
 
         .card h2 {
             /* Внутренний отступ для заголовка h2 */
-            display: inline-flex;
+            display: flex;
             margin: 5px;
+            text-align: center;
         }
 
         .card a {
-            display: inline-flex;
+            display: flex;
+            align-self: center;
         }
 
         .price {
             /* Размер шрифта цены */
             display: flex;
+            align-self: center;
             font-size: 20px;
             /* Жирное начертание для цены */
             font-weight: bold;
@@ -68,16 +72,21 @@
             /* Удаление маркеров списка */
             list-style: none;
             display: flex;
+            align-self: center;
             padding: 5px;
         }
 
         li {
             /* Внешний отступ элементов списка */
             margin: 5px 0;
+            display: flex;
         }
 
-        @media (max-width: 500px) {
+        @media (max-width: 750px) {
             .subscription_rates_container {
+                flex-direction: column;
+            }
+            .card {
                 flex-direction: column;
             }
         }
