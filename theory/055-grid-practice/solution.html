@@ -8,9 +8,15 @@
     <title>Шахматная доска</title>
     <style>
         .chessboard {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
         }
 
         .square {
+            grid-column: span 1;
+            grid-row: span 1;
+            width: 100px;
+            height: 100px;
         }
 
         .white {
