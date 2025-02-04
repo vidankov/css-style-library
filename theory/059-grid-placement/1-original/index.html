@@ -9,18 +9,22 @@
             background-color: slategrey;
             height: 97vh;
             display: grid;
-            gap: 10px;
+            gap: 20px;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr;
         }
 
         .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-color: rgb(159, 142, 121);
-            font-size: 70px;
+            font-size: 10rem;
         }
 
         .teacher {
             grid-column: span 2;
+            background-color: #f6e9d0;
         }
 
         .scientist {
@@ -30,6 +34,7 @@
         .programmer {
             grid-column: 3;
             grid-row: 1 / span 2;
+            background-color: #01017f;
         }
     </style>
     <title>grid-placement</title>
